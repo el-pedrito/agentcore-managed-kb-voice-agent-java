@@ -1,0 +1,22 @@
+target/
+.deploy/
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Terraform
+infra/*/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+test-audio/
+answers.wav
+
+# Customer documents never enter the repo
+client-data/
+*.pdf
+*.docx
+*.doc
+*.xlsx

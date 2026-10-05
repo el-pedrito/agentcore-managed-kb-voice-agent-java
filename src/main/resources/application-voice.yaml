@@ -1,0 +1,19 @@
+# Profile "voice": command line voice front end, no web server.
+spring:
+  main:
+    web-application-type: none
+    banner-mode: off
+
+voice:
+  # Nova 2 Sonic in Europe: Stockholm only (the Knowledge Base and the text agent stay in eu-west-1).
+  region: ${VOICE_REGION:eu-north-1}
+  model-id: ${VOICE_MODEL_ID:amazon.nova-2-sonic-v1:0}
+  # French voices: florian (masculine) or ambre (feminine).
+  voice-id: ${VOICE_ID:florian}
+
+logging:
+  level:
+    root: WARN
+    com.example.techagent: WARN
+    # ~/.aws/config entries unknown to the SDK are not an error.
+    software.amazon.awssdk.profiles: ERROR
