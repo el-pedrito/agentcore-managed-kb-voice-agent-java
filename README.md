@@ -241,3 +241,7 @@ Deletes the runtime, the ECR repository and the role. The Knowledge Base and the
 - [Amazon Bedrock AgentCore pricing](https://aws.amazon.com/bedrock/agentcore/pricing/)
 - [AgentCore Runtime: bidirectional streaming with WebSocket](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-get-started-websocket.html)
 - [Amazon Nova 2 Sonic Java WebSocket sample](https://github.com/aws-samples/amazon-nova-samples/tree/main/speech-to-speech/amazon-nova-2-sonic/sample-codes/websocket-java)
+
+## License
+
+This project is licensed under the MIT-0 License. See the [LICENSE](LICENSE) file.
